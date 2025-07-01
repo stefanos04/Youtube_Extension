@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Winnie blocks YouTube recommendations",
+  "version": "1.0",
+  "description": "Winnie blocks YouTube recommendations.",
+  "permissions": [],
+  "host_permissions": ["*://www.youtube.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["image.gif"],
+      "matches": ["*://www.youtube.com/*"]
+    }
+  ]
+}
+
+

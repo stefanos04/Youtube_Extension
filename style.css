@@ -1,0 +1,18 @@
+.funny-blocker {
+  text-align: center;
+  background-color: #ffffff00;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  margin: 20px auto;
+  border: none;
+  font-size: 100x; /* Smaller text */
+}
+
+.funny-blocker img {
+  margin-top: 10px;
+  max-width: 100%;
+  width: 400px;      /* Larger image */
+  height: auto;
+  border-radius: 0;  /* No curved edges on the image either */
+  border: none;
+}
